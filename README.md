@@ -1,2 +1,4 @@
 # Previsao-RUL-de-Motores-com-Machine-Learning
 Implementa modelos de ML para prever vida útil de motores de aeronaves (RUL). Compara Regressão Linear vs Random Forest no dataset NASA C-MAPSS, com engenharia de features temporal e validação cruzada.
+
+Este repositório contém o pipeline completo de Machine Learning para o Prognóstico da Vida Útil Remanescente (RUL) de motores turbofan, utilizando o dataset NASA C-MAPSS FD001. O projeto compara o Regressor Random Forest otimizado com um baseline de Regressão Linear, com o objetivo de validar a natureza não-linear da degradação. A metodologia enfatiza uma rigorosa Engenharia de Features Temporal, baseada em Médias Móveis de 10 ciclos, para extrair o sinal de desgaste e o ruído dos sensores. O modelo final mostra o potencial do Machine Learning para reduzir custos e aumentar a segurança em sistemas de Manutenção Preditiva Aeroespacial.
